@@ -8,5 +8,6 @@ description: 测试
 image: 
 publish: "true"
 shortRepo: astro
+path: src/content/posts
 ---
-测试上传的情况如何
+测试上传的情况如何，现在重新再来一次
