@@ -71,7 +71,22 @@ services:
    直接在网页端选择网盘文件复制/粘贴到`local`中即可
 2. 本地到网盘
    需要先把上传的的文件复制到`共享文件夹/alist/data`下，然后网页端在`local`中找到这个文件复制粘贴到网盘中即可。
-## 网盘挂载到本地
+
+## 通过文件管理器挂载网盘
+
+> 系统真的是太素了，之前都没发现文件管理器是可以挂载WebDav的，还是群友提醒的，那直接用文件管理器挂载更舒服。
+
+### 连接网络服务器
+![wqQuW2PsoehpFMz.png](https://cdn.sa.net/2025/03/18/wqQuW2PsoehpFMz.png)
+### 把Alist挂载到本地文件夹
+![KvshrFTXI7mzcHY.png](https://cdn.sa.net/2025/03/18/KvshrFTXI7mzcHY.png)
+![ExH519bOp6sM3aK.png](https://cdn.sa.net/2025/03/18/ExH519bOp6sM3aK.png)
+### 文件管理
+
+> 非常的方便，文件管理器中即可管理，同时手机上也能操作。
+
+![tBEQ5ogbkYsTXCa.png](https://cdn.sa.net/2025/03/18/tBEQ5ogbkYsTXCa.png)
+## 网盘挂载到本地（备用）
 
 >实际上alist我觉得已经够用了，不过如果能像操作本地文件一样在文件管理中管理，那显得确实很酷（但不算是好用）。
 
@@ -126,3 +141,5 @@ WantedBy=multi-user.target
 可能只是更方面把网盘搬家回来吧，但是效果不太好，主要是下载量大了就会自动断流什么的，能怎么办？充钱呗。
 
 `rclone`挂载的方式不太建议，安全性堪忧，我比较好奇的是绿联系统居然内置了`rclone`！
+
+**更新**：使用原生的文件管理器挂载吧，不过大概率也是通过`rclone`挂载的。
